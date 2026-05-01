@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aritra Saha — Computer Science student and developer building backend systems, AI workflows, and real-time applications.">
+  <meta name="theme-color" content="#07111f">
+  <meta property="og:title" content="Aritra Saha — Computer Science Student & Developer">
+  <meta property="og:description" content="Modern developer portfolio showcasing projects, skills, experience, and contact links.">
+  <meta property="og:type" content="website">
+  <title>Aritra Saha — Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="loader" aria-label="Loading portfolio">
+    <div class="loader-ring"></div>
+    <span>Initializing portfolio</span>
+  </div>
+
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-outline" aria-hidden="true"></div>
+
+  <header class="site-header" data-header>
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Aritra home">
+        <span class="brand-mark">A</span>
+        <span>Aritra</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-menu-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-panel" data-nav-panel>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="Toggle color theme" data-theme-toggle>
+          <span class="theme-icon">☾</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Computer Science Student | Developer</p>
+          <h1 id="hero-title">Hi, I’m <span>Aritra Saha</span>.</h1>
+          <p class="typing-line" aria-label="Animated intro text">
+            I build <span data-typing></span><span class="caret">|</span>
+          </p>
+          <p class="hero-description">
+            Backend-focused developer building clean APIs, AI-enabled workflows, and real-time systems with Python, Go, JavaScript, and strong engineering fundamentals.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary magnetic" href="#projects">View Projects</a>
+            <a class="btn btn-secondary magnetic" href="mailto:aritra.saha@outlook.in">Contact Me</a>
+          </div>
+
+          <div class="hero-stats" aria-label="Portfolio highlights">
+            <div>
+              <strong>3+</strong>
+              <span>Featured projects</span>
+            </div>
+            <div>
+              <strong>15+</strong>
+              <span>Technologies</span>
+            </div>
+            <div>
+              <strong>AI</strong>
+              <span>Backend focus</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-card reveal" aria-label="Developer profile card">
+          <div class="card-glow"></div>
+          <div class="terminal-card">
+            <div class="terminal-top">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <pre><code>class Builder:
+    name = "Aritra Saha"
+    focus = ["APIs", "AI", "Realtime"]
+    stack = ["Python", "Go", "JavaScript"]
+
+    def ship(self):
+        return "Reliable systems"</code></pre>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About Me</p>
+          <h2 id="about-title">Sharp execution for real-world software.</h2>
+        </div>
+        <div class="about-content reveal">
+          <p>
+            I’m a Computer Science student focused on backend engineering and AI-driven applications. I turn ambiguous product ideas into scalable APIs, real-time workflows, database-backed services, and ML-enabled product experiences.
+          </p>
+          <div class="about-cards">
+            <article>
+              <span>01</span>
+              <h3>Backend Systems</h3>
+              <p>REST APIs, service boundaries, validation flows, and reliable data workflows.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>AI Workflows</h3>
+              <p>Practical ML integrations, model pipelines, and agentic application architecture.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Fast Iteration</h3>
+              <p>Clean interfaces, maintainable code, and product-minded engineering under pressure.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">Featured Projects</p>
+          <h2 id="projects-title">Built for impact, speed, and clarity.</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-index">01</div>
+            <h3>Driver Wellness Monitoring System</h3>
+            <p>Real-time system for assessing driver alertness and health risk indicators using physiological and behavioral signal workflows.</p>
+            <div class="tech-list">
+              <span>Python</span>
+              <span>Scikit-learn</span>
+              <span>Realtime</span>
+              <span>ML</span>
+            </div>
+            <div class="project-links">
+              <a href="mailto:aritra.saha@outlook.in?subject=Driver%20Wellness%20Monitoring%20System%20Demo">Live Demo</a>
+              <a href="https://github.com/aritraio" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-index">02</div>
+            <h3>Multi-Agent AI Travel Assistant</h3>
+            <p>Agent-based travel planning architecture with task orchestration, itinerary generation, constraint handling, and modular backend services.</p>
+            <div class="tech-list">
+              <span>AI Agents</span>
+              <span>APIs</span>
+              <span>Python</span>
+              <span>Backend</span>
+            </div>
+            <div class="project-links">
+              <a href="mailto:aritra.saha@outlook.in?subject=Multi-Agent%20AI%20Travel%20Assistant%20Demo">Live Demo</a>
+              <a href="https://github.com/aritraio" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-index">03</div>
+            <h3>Real-Time Localized SOS Alert System</h3>
+            <p>Location-aware emergency alerting layer that routes critical alerts to nearby responders and trusted contacts with low latency.</p>
+            <div class="tech-list">
+              <span>Geolocation</span>
+              <span>REST APIs</span>
+              <span>MySQL</span>
+              <span>Realtime</span>
+            </div>
+            <div class="project-links">
+              <a href="mailto:aritra.saha@outlook.in?subject=Real-Time%20Localized%20SOS%20Alert%20System%20Demo">Live Demo</a>
+              <a href="https://github.com/aritraio" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Skills & Tech Stack</p>
+          <h2 id="skills-title">Tools I use to ship dependable software.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-group reveal">
+            <div class="skill-header">
+              <h3>Languages</h3>
+              <span>Core</span>
+            </div>
+            <div class="badges">
+              <span>Python</span>
+              <span>Go</span>
+              <span>JavaScript</span>
+              <span>C</span>
+              <span>C++</span>
+            </div>
+            <div class="progress"><span style="--level: 88%"></span></div>
+          </article>
+
+          <article class="skill-group reveal">
+            <div class="skill-header">
+              <h3>Backend & Databases</h3>
+              <span>Systems</span>
+            </div>
+            <div class="badges">
+              <span>FastAPI</span>
+              <span>REST APIs</span>
+              <span>MySQL</span>
+              <span>Service Design</span>
+            </div>
+            <div class="progress"><span style="--level: 84%"></span></div>
+          </article>
+
+          <article class="skill-group reveal">
+            <div class="skill-header">
+              <h3>ML & Data</h3>
+              <span>Intelligence</span>
+            </div>
+            <div class="badges">
+              <span>NumPy</span>
+              <span>Pandas</span>
+              <span>Scikit-learn</span>
+              <span>Matplotlib</span>
+              <span>Seaborn</span>
+            </div>
+            <div class="progress"><span style="--level: 78%"></span></div>
+          </article>
+
+          <article class="skill-group reveal">
+            <div class="skill-header">
+              <h3>Tools & Platforms</h3>
+              <span>Workflow</span>
+            </div>
+            <div class="badges">
+              <span>Git</span>
+              <span>GitHub</span>
+              <span>Linux</span>
+              <span>CLI</span>
+            </div>
+            <div class="progress"><span style="--level: 82%"></span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Experience</p>
+          <h2 id="experience-title">Learning by building systems that work.</h2>
+        </div>
+
+        <div class="timeline reveal">
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div>
+              <p class="timeline-meta">Independent Projects</p>
+              <h3>Software Developer & AI Engineer</h3>
+              <p>Designing backend APIs, validation flows, AI-assisted workflows, and real-time processing paths for low-latency application behavior.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div>
+              <p class="timeline-meta">Bachelor’s in Computer Science</p>
+              <h3>Computer Science Education</h3>
+              <p>Focused on data structures, algorithms, system design, machine learning, databases, and software engineering fundamentals.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-card reveal">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Let’s build something useful.</h2>
+          <p>Open to internships, hackathons, collaborations, and engineering conversations.</p>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:aritra.saha@outlook.in" class="contact-link magnetic">
+            <span aria-hidden="true">✉</span>
+            <div>
+              <strong>Email</strong>
+              <small>aritra.saha@outlook.in</small>
+            </div>
+          </a>
+          <a href="https://github.com/aritraio" target="_blank" rel="noreferrer" class="contact-link magnetic">
+            <span aria-hidden="true">⌘</span>
+            <div>
+              <strong>GitHub</strong>
+              <small>github.com/aritraio</small>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/aritra404/" target="_blank" rel="noreferrer" class="contact-link magnetic">
+            <span aria-hidden="true">in</span>
+            <div>
+              <strong>LinkedIn</strong>
+              <small>linkedin.com/in/aritra404</small>
+            </div>
+          </a>
+          <a href="https://aritraio.github.io/portfolio-website/assets/files/resume.pdf" target="_blank" rel="noreferrer" class="contact-link magnetic">
+            <span aria-hidden="true">↗</span>
+            <div>
+              <strong>Resume</strong>
+              <small>Download PDF</small>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Designed & built by Aritra Saha · <span data-year></span></p>
+      <a href="#home">Back to top</a>
+    </div>
+  </footer>
+</body>
+</html>
